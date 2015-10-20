@@ -13,6 +13,9 @@
 		01A6AB5C1BD55A8600293874 /* TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6AB5B1BD55A8600293874 /* TimerUITests.swift */; };
 		01A6AB6A1BD55B1800293874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A6AB691BD55B1800293874 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 		01A6AB6C1BD55B4500293874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A6AB6B1BD55B4500293874 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		1FB827791BD6DA2200568F10 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB827781BD6DA2200568F10 /* TimerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1FB8277B1BD6DBBB00568F10 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB8277A1BD6DBBB00568F10 /* AlarmViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		1FB8277F1BD6DC8400568F10 /* CountTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB8277E1BD6DC8400568F10 /* CountTimer.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		01A6AB5D1BD55A8600293874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01A6AB691BD55B1800293874 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01A6AB6B1BD55B4500293874 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1FB827781BD6DA2200568F10 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = SOURCE_ROOT; };
+		1FB8277A1BD6DBBB00568F10 /* AlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		1FB8277E1BD6DC8400568F10 /* CountTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountTimer.swift; path = ../CountTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,12 @@
 		01A6AB3A1BD55A8600293874 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
+				1FB827781BD6DA2200568F10 /* TimerViewController.swift */,
+				1FB8277E1BD6DC8400568F10 /* CountTimer.swift */,
 				01A6AB691BD55B1800293874 /* AppDelegate.swift */,
 				01A6AB421BD55A8600293874 /* Assets.xcassets */,
 				01A6AB6B1BD55B4500293874 /* Main.storyboard */,
+				1FB8277A1BD6DBBB00568F10 /* AlarmViewController.swift */,
 				01A6AB441BD55A8600293874 /* LaunchScreen.storyboard */,
 				01A6AB471BD55A8600293874 /* Info.plist */,
 			);
@@ -253,7 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB827791BD6DA2200568F10 /* TimerViewController.swift in Sources */,
+				1FB8277F1BD6DC8400568F10 /* CountTimer.swift in Sources */,
 				01A6AB6A1BD55B1800293874 /* AppDelegate.swift in Sources */,
+				1FB8277B1BD6DBBB00568F10 /* AlarmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
